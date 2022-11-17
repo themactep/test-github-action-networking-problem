@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.5.0
-      - run: wget --debug --verbose https://invisible-mirror.net/archives/ncurses/6.1/ncurses-6.1-20190609-patch.sh.bz2
+      - run: wget --debug --verbose --timeout=30 https://invisible-mirror.net/archives/ncurses/6.1/ncurses-6.1-20190609-patch.sh.bz2
